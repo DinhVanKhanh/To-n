@@ -1,0 +1,436 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+input[readonly] {
+	border: none;
+	background: #eee;
+}
+
+input[type=text] {
+	height: 30px;
+	border: none;
+	padding: 5px;
+}
+
+/*HEADER
+=======================================================*/
+
+header {
+	width: 100%;
+	height: 50px;
+	background: rgba(4, 130, 214, 0.8 );
+	color: white;
+}
+
+.dp-title {
+	font-size: 20px;
+	margin-left: 50px;
+	line-height: 50px;
+}
+
+.dp-profile {
+	top: 0;
+	right: 30px;
+	position: absolute;
+}
+
+.dp-profile p {
+	line-height: 50px;
+}
+
+.dp-profile a {
+	color: white;
+	text-decoration: none;
+	border-left: 1px solid white;
+	padding-left: 5px;
+}
+
+/*SIDEBAR
+==========================================================*/
+.dp-sidebar {
+	width: 200px;
+	height: calc( 100vh - 50px );
+	background: rgba(4, 130, 214, 0.6 );
+	padding-top: 50px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.dp-menu {
+	list-style: none;
+	margin-bottom: 10px;
+	height: 40px;
+	padding-left: 30px;
+	color: white;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+.dp-menu:hover,
+.sidebar-active {
+	background: rgba(4, 130, 214, 0.8 );
+}
+
+/*MAIN
+=================================================*/
+.dp-main {
+	width: calc( 100% - 250px );
+	height: calc( 100vh - 100px );
+	float: right;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+
+/*FOOTER
+===================================================*/
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	width: 200px;
+}
+
+.dp-copyright,
+.dp-version {
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+/*HOME TPL
+===================================================*/
+.dp-home {
+	padding: 30px;
+}
+
+.dp-home h3 {
+	color: #e22222;
+	padding: 10px 20px;
+}
+
+.dp-home hr {
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.dp-home h5 {
+	margin: 30px 0 5px 0;
+}
+
+.dp-home ul {
+	margin-left: 30px;
+	line-height: 25px;
+}
+
+/*2nd MENU
+===================================================*/
+.dp-2nd-menu {
+	width: 100%;
+	height: 50px;
+	color: white;
+}
+
+.dp-2nd-menu-item {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+	background: #9c9c9c;
+	cursor: pointer;
+}
+
+.dp-2nd-menu-item.active {
+	background: #e22222;
+}
+
+.dp-2nd-main {
+	margin-top: -12px;
+	border-top: 4px solid #e22222;
+	background: #eee;
+	max-height: 530px;
+	height: 530px;
+	overflow-y: auto;
+}
+
+/*LOGIN FORM
+========================================*/
+.dp-login {
+	width: 350px;
+	height: 300px;
+	border: 2px solid rgba( 214,132,132, 1 );
+	text-align: center;
+	margin: 150px auto;
+}
+
+
+.dp-login input {
+	width: 300px;
+	border: 1px solid rgba( 214,132,132, 0.8 );
+	height: 40px;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	background: white;
+	color: #333;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+.dp-login h3 {
+	font-family: sans-serif;
+	font-size: 16px;
+	margin: 30px 0;
+	color:  rgba( 214,132,132, 1 );;
+	text-transform: uppercase;
+}
+
+.dp-login input[type=submit] {
+	background-color: rgba( 214,132,132, 0.8 );
+	color: white;
+	height: 35px;
+	border: none;
+	cursor: pointer;
+}
+
+
+.dp-login a  {
+	display: block;
+	text-align: right;
+	margin-right: 25px;
+	color:  rgba( 214,132,132, 1 );
+	text-decoration: none;
+	font-size: 12px;
+}
+
+/*NEW POST TPL
+==============================================*/
+.dp-new-post {
+	padding: 30px;
+}
+
+.dp-new-post input,
+.dp-new-post select {
+	margin: 20px 0;
+	width: 40%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+}
+
+#dp-wysiwyg_ifr {
+	min-height: 400px;
+}
+
+.dp-new-post input[type=submit] {
+	color: white;
+	background-color: #e22222;
+	cursor: pointer;
+}
+
+/*ADD CATE TPL
+========================================*/
+.dp-add-cate {
+	padding: 30px;
+}
+
+.dp-add-cate input {
+	display: block;
+	width: 40%;
+	margin: 20px 0;
+	height: 35px;
+	padding: 0 10px ;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+}
+
+.dp-add-cate input[type=submit] {
+	background: #e22222;
+	color: white;
+}
+/* ADD PRODUCT TPL
+=========================================*/
+select {
+    padding: 10px;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+label {
+    font-weight: bold;
+    margin-left: 25%;
+}
+.dp-add-cate input {
+    width: 50%;
+    margin-left: 25%;
+    height: 50px;
+    padding: 2%;
+}
+textarea {
+		margin-left: 25%;
+    width: 46%;
+    padding: 2%;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-style: uppercase;
+}
+/*CATE MGMT TPL
+===========================================*/
+.dp-cate-mgmt {
+	width: 90%;
+	border-collapse: collapse;
+	margin: 30px auto;
+}
+
+.dp-cate-mgmt td {
+	padding: 10px;
+	border: 1px solid #ff8989;
+}
+
+.dp-cate-mgmt tr:first-child {
+	background: #ff8989;
+	color: white;
+	text-align: center;
+}
+
+.dp-cate-mgmt td:last-child {
+	text-align: center;
+}
+
+.dp-cate-edit-btn,
+.dp-product-edit-btn,
+.dp-cate-delete-btn,
+.dp-cate-save-btn,
+.dp-video-edit-btn,
+.dp-video-delete-btn,
+.dp-user-edit-btn {
+	width: 50px;
+	border: none;
+	color: white;
+	height: 30px;
+	background-color: blue;
+	margin: 5px 0;
+}
+
+.dp-cate-save-btn  {
+	display: none;
+	background-color: green;
+}
+
+.dp-cate-delete-btn,
+.dp-video-delete-btn {
+	background-color: #e22222;
+}
+
+/*USER ADD TPL
+================================================*/
+.dp-add-user {
+	padding: 30px;
+}
+
+.dp-add-user input {
+	display: block;
+	width: 40%;
+	margin: 20px 0;
+	height: 35px;
+	padding: 0 10px ;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+}
+
+.dp-add-user input[type=submit] {
+	background: #e22222;
+	color: white;
+}
+
+/*USER MGMT TPL
+=========================================*/
+.dp-user-mgmt {
+	width: 90%;
+	border-collapse: collapse;
+	margin: 30px auto;
+}
+
+.dp-user-mgmt td {
+	padding: 10px;
+	border: 1px solid #ff8989;
+}
+
+.dp-user-mgmt tr:first-child {
+	background: #ff8989;
+	color: white;
+	text-align: center;
+}
+
+.dp-user-mgmt td:last-child {
+	text-align: center;
+}
+
+.dp-user-block-btn,
+.dp-user-unblock-btn,
+.dp-user-delete-btn {
+	width: 70px;
+	border: none;
+	color: white;
+	height: 30px;
+	background-color: blue;
+}
+
+.dp-user-delete-btn {
+	background-color: #e22222;
+}
+
+/*POST MGMT TPL
+=========================================*/
+.dp-post-mgmt {
+	width: 90%;
+	border-collapse: collapse;
+	margin: 30px auto;
+}
+
+.dp-post-mgmt td {
+	padding: 10px;
+	border: 1px solid #ff8989;
+}
+
+.dp-post-mgmt tr:first-child {
+	background: #ff8989;
+	color: white;
+	text-align: center;
+}
+
+.dp-post-mgmt td:last-child {
+	text-align: center;
+}
+
+.dp-post-edit-btn,
+.dp-post-delete-btn,
+.dp-post-unpublish-btn,
+.dp-post-publish-btn {
+	width: 50px;
+	border: none;
+	color: white;
+	height: 30px;
+	background-color: blue;
+}
+
+.dp-post-delete-btn {
+	background-color: #e22222;
+}
+
+.dp-post-unpublish-btn,
+.dp-post-publish-btn {
+	width: 120px;
+	margin-top: 10px;
+}
+
+/* PRODUCTS
+=======================================================*/
+.dp-preview-image {
+	width: 200px;
+  display: inline-block;
+  margin: 10px;
+}

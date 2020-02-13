@@ -1,0 +1,74 @@
+<?php
+die();
+include_once("Dbconn.php");
+$db=new apps_libs_Dbconn();
+
+$query_tb="INSERT INTO `devvn_tinhthanhpho` VALUES ('01', 'Thành phố Hà Nội', 'Thành phố Trung ương');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('02', 'Tỉnh Hà Giang', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('04', 'Tỉnh Cao Bằng', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('06', 'Tỉnh Bắc Kạn', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('08', 'Tỉnh Tuyên Quang', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('10', 'Tỉnh Lào Cai', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('11', 'Tỉnh Điện Biên', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('12', 'Tỉnh Lai Châu', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('14', 'Tỉnh Sơn La', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('15', 'Tỉnh Yên Bái', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('17', 'Tỉnh Hoà Bình', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('19', 'Tỉnh Thái Nguyên', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('20', 'Tỉnh Lạng Sơn', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('22', 'Tỉnh Quảng Ninh', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('24', 'Tỉnh Bắc Giang', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('25', 'Tỉnh Phú Thọ', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('26', 'Tỉnh Vĩnh Phúc', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('27', 'Tỉnh Bắc Ninh', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('30', 'Tỉnh Hải Dương', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('31', 'Thành phố Hải Phòng', 'Thành phố Trung ương');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('33', 'Tỉnh Hưng Yên', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('34', 'Tỉnh Thái Bình', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('35', 'Tỉnh Hà Nam', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('36', 'Tỉnh Nam Định', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('37', 'Tỉnh Ninh Bình', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('38', 'Tỉnh Thanh Hóa', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('40', 'Tỉnh Nghệ An', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('42', 'Tỉnh Hà Tĩnh', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('44', 'Tỉnh Quảng Bình', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('45', 'Tỉnh Quảng Trị', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('46', 'Tỉnh Thừa Thiên Huế', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('48', 'Thành phố Đà Nẵng', 'Thành phố Trung ương');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('49', 'Tỉnh Quảng Nam', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('51', 'Tỉnh Quảng Ngãi', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('52', 'Tỉnh Bình Định', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('54', 'Tỉnh Phú Yên', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('56', 'Tỉnh Khánh Hòa', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('58', 'Tỉnh Ninh Thuận', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('60', 'Tỉnh Bình Thuận', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('62', 'Tỉnh Kon Tum', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('64', 'Tỉnh Gia Lai', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('66', 'Tỉnh Đắk Lắk', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('67', 'Tỉnh Đắk Nông', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('68', 'Tỉnh Lâm Đồng', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('70', 'Tỉnh Bình Phước', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('72', 'Tỉnh Tây Ninh', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('74', 'Tỉnh Bình Dương', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('75', 'Tỉnh Đồng Nai', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('77', 'Tỉnh Bà Rịa - Vũng Tàu', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('79', 'Thành phố Hồ Chí Minh', 'Thành phố Trung ương');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('80', 'Tỉnh Long An', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('82', 'Tỉnh Tiền Giang', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('83', 'Tỉnh Bến Tre', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('84', 'Tỉnh Trà Vinh', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('86', 'Tỉnh Vĩnh Long', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('87', 'Tỉnh Đồng Tháp', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('89', 'Tỉnh An Giang', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('91', 'Tỉnh Kiên Giang', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('92', 'Thành phố Cần Thơ', 'Thành phố Trung ương');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('93', 'Tỉnh Hậu Giang', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('94', 'Tỉnh Sóc Trăng', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('95', 'Tỉnh Bạc Liêu', 'Tỉnh');
+INSERT INTO `devvn_tinhthanhpho` VALUES ('96', 'Tỉnh Cà Mau', 'Tỉnh');";
+
+$tach=explode(";",$query_tb);
+foreach($tach as $item)
+{
+    $db->Querry($item);
+}

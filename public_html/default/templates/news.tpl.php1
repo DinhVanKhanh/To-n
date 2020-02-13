@@ -1,0 +1,162 @@
+<?php include TPL_DIR . '/_head.tpl.php'; ?>
+<body class="archive category category-tin-tuc category-67 header-shadow lightbox nav-dropdown-has-arrow">
+  <div id="wrapper">
+    <?php include TPL_DIR . '/_header-main.tpl.php'; ?>
+    <main id="main" class="" style="padding-top: 50px;">
+      <div class="row row-large row-divided ">
+        <div class="post-sidebar large-4 col">
+            <aside id="block_widget-7" class="widget block_widget">
+              <div class="row"  id="row-852780339">
+                <div class="col small-12 large-12"  >
+                  <?php include TPL_DIR . '/_mini-news.tpl.php'; ?>
+                  <?php include TPL_DIR . '/_newest-video.tpl.php'; ?>
+                  <?php include TPL_DIR . '/_featured-news.tpl.php'; ?>
+                  <?php include TPL_DIR . '/_statistical-access.tpl.php'; ?>
+                </div>
+              </div>
+            </aside>
+        </div>
+        <!-- .post-sidebar -->
+        <div class="large-8 col medium-col-first">
+          <div class="row large-columns-1 medium-columns- small-columns-1">
+            <div class="col post-item" >
+              <div class="col-inner">
+                <a href="../../2017/12/07/tuong-tac-toan-cho-tre/index.html" class="plain">
+                  <div class="box box-vertical box-text-bottom box-blog-post has-hover">
+                    <div class="box-image" style="width:40%;">
+                      <div class="image-cover" style="padding-top:56%;">
+                        <img width="259" height="194" src="../../wp-content/uploads/2017/12/tuong-tac-toan-cho-tre.jpg" class="attachment-medium size-medium wp-post-image" alt="" srcset="http://smartbrain.edu.vn/wp-content/uploads/2017/12/tuong-tac-toan-cho-tre.jpg 259w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/tuong-tac-toan-cho-tre-24x18.jpg 24w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/tuong-tac-toan-cho-tre-36x27.jpg 36w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/tuong-tac-toan-cho-tre-48x36.jpg 48w" sizes="(max-width: 259px) 100vw, 259px" />
+                      </div>
+                    </div>
+                    <!-- .box-image -->
+                    <div class="box-text text-left" >
+                      <div class="box-text-inner blog-post-inner">
+                        <h5 class="post-title is-large ">Tương tác toán cho trẻ!</h5>
+                        <div class="is-divider"></div>
+                        <p class="from_the_blog_excerpt ">Tương tác toán cho trẻ! Nắm vững các kỹ năng toán học cơ bản thường[...]					</p>
+                      </div>
+                      <!-- .box-text-inner -->
+                    </div>
+                    <!-- .box-text -->
+                    <div class="badge absolute top post-date badge-circle-inside">
+                      <div class="badge-inner">
+                        <span class="post-date-day">07</span><br>
+                        <span class="post-date-month is-xsmall">Th12</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .box -->
+                </a>
+                <!-- .link -->
+              </div>
+              <!-- .col-inner -->
+            </div>
+            <!-- .col -->
+            <div class="col post-item" >
+              <div class="col-inner">
+                <a href="../../2017/12/07/loi-ich-chuong-trinh-toan-tu-duy-smart-brain/index.html" class="plain">
+                  <div class="box box-vertical box-text-bottom box-blog-post has-hover">
+                    <div class="box-image" style="width:40%;">
+                      <div class="image-cover" style="padding-top:56%;">
+                        <img width="418" height="228" src="../../wp-content/uploads/2017/12/loi-ich-chuong-trinh-toan-tu-duy-smart-brain.png" class="attachment-medium size-medium wp-post-image" alt="" srcset="http://smartbrain.edu.vn/wp-content/uploads/2017/12/loi-ich-chuong-trinh-toan-tu-duy-smart-brain.png 418w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/loi-ich-chuong-trinh-toan-tu-duy-smart-brain-24x13.png 24w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/loi-ich-chuong-trinh-toan-tu-duy-smart-brain-36x20.png 36w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/loi-ich-chuong-trinh-toan-tu-duy-smart-brain-48x26.png 48w" sizes="(max-width: 418px) 100vw, 418px" />
+                      </div>
+                    </div>
+                    <!-- .box-image -->
+                    <div class="box-text text-left" >
+                      <div class="box-text-inner blog-post-inner">
+                        <h5 class="post-title is-large ">Lợi ích chương trình Toán Tư Duy Smart Brain</h5>
+                        <div class="is-divider"></div>
+                        <p class="from_the_blog_excerpt ">&#8211;     Với Chương trình “Phát triển tư duy cho trẻ bằng bàn tính[...]					</p>
+                      </div>
+                      <!-- .box-text-inner -->
+                    </div>
+                    <!-- .box-text -->
+                    <div class="badge absolute top post-date badge-circle-inside">
+                      <div class="badge-inner">
+                        <span class="post-date-day">07</span><br>
+                        <span class="post-date-month is-xsmall">Th12</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .box -->
+                </a>
+                <!-- .link -->
+              </div>
+              <!-- .col-inner -->
+            </div>
+            <!-- .col -->
+            <div class="col post-item" >
+              <div class="col-inner">
+                <a href="../../2017/12/07/toan-tu-duy-moi-hop-tac/index.html" class="plain">
+                  <div class="box box-vertical box-text-bottom box-blog-post has-hover">
+                    <div class="box-image" style="width:40%;">
+                      <div class="image-cover" style="padding-top:56%;">
+                        <img width="310" height="260" src="../../wp-content/uploads/2017/12/thu-moi-hop-tac.png" class="attachment-medium size-medium wp-post-image" alt="" srcset="http://smartbrain.edu.vn/wp-content/uploads/2017/12/thu-moi-hop-tac.png 310w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/thu-moi-hop-tac-24x20.png 24w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/thu-moi-hop-tac-36x30.png 36w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/thu-moi-hop-tac-48x40.png 48w" sizes="(max-width: 310px) 100vw, 310px" />
+                      </div>
+                    </div>
+                    <!-- .box-image -->
+                    <div class="box-text text-left" >
+                      <div class="box-text-inner blog-post-inner">
+                        <h5 class="post-title is-large ">® TOÁN TƯ DUY MỜI HỢP TÁC</h5>
+                        <div class="is-divider"></div>
+                        <p class="from_the_blog_excerpt ">CÔNG TY TNHH DỊCH VỤ GIÁO DỤC VÀ ĐÀO TẠO TOÁN TƯ DUY &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;          CỘNG[...]					</p>
+                      </div>
+                      <!-- .box-text-inner -->
+                    </div>
+                    <!-- .box-text -->
+                    <div class="badge absolute top post-date badge-circle-inside">
+                      <div class="badge-inner">
+                        <span class="post-date-day">07</span><br>
+                        <span class="post-date-month is-xsmall">Th12</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .box -->
+                </a>
+                <!-- .link -->
+              </div>
+              <!-- .col-inner -->
+            </div>
+            <!-- .col -->
+            <div class="col post-item" >
+              <div class="col-inner">
+                <a href="../../2017/12/07/thong-bao-khoa-dao-tao-giao-vien/index.html" class="plain">
+                  <div class="box box-vertical box-text-bottom box-blog-post has-hover">
+                    <div class="box-image" style="width:40%;">
+                      <div class="image-cover" style="padding-top:56%;">
+                        <img width="210" height="118" src="../../wp-content/uploads/2017/12/thong-bao-khoa-dao-tao-giao-vien.png" class="attachment-medium size-medium wp-post-image" alt="" srcset="http://smartbrain.edu.vn/wp-content/uploads/2017/12/thong-bao-khoa-dao-tao-giao-vien.png 210w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/thong-bao-khoa-dao-tao-giao-vien-24x13.png 24w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/thong-bao-khoa-dao-tao-giao-vien-36x20.png 36w, http://smartbrain.edu.vn/wp-content/uploads/2017/12/thong-bao-khoa-dao-tao-giao-vien-48x27.png 48w" sizes="(max-width: 210px) 100vw, 210px" />
+                      </div>
+                    </div>
+                    <!-- .box-image -->
+                    <div class="box-text text-left" >
+                      <div class="box-text-inner blog-post-inner">
+                        <h5 class="post-title is-large ">THÔNG BÁO &#8211; KHÓA ĐÀO TẠO GIÁO VIÊN</h5>
+                        <div class="is-divider"></div>
+                        <p class="from_the_blog_excerpt ">© TOÁN TƯ DUY THÔNG BÁO Chiêu sinh Lớp Nghiệp vụ &#8220;KỸ NĂNG TOÁN TƯ[...]					</p>
+                      </div>
+                      <!-- .box-text-inner -->
+                    </div>
+                    <!-- .box-text -->
+                    <div class="badge absolute top post-date badge-circle-inside">
+                      <div class="badge-inner">
+                        <span class="post-date-day">07</span><br>
+                        <span class="post-date-month is-xsmall">Th12</span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .box -->
+                </a>
+                <!-- .link -->
+              </div>
+              <!-- .col-inner -->
+            </div>
+            <!-- .col -->
+          </div>
+        </div>
+        <!-- .large-9 -->
+      </div>
+      <!-- .row -->
+  </div>
+  <!-- .page-wrapper .blog-wrapper -->
+  </main><!-- #main -->
+  <?php include TPL_DIR . '/_footer.tpl.php'; ?>
